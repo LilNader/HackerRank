@@ -1,3 +1,6 @@
+# Breadth First Search: Shortest Reach
+# https://www.hackerrank.com/challenges/bfsshortreach/problem
+
 class Node():
     def __init__(self, id):
         self.id = id

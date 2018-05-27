@@ -1,3 +1,6 @@
+# Even Tree
+# https://www.hackerrank.com/challenges/even-tree/problem
+#
 # Technique used: Graph traversals: DFS
 # Counting connected components, trees and forests.
 
@@ -28,7 +31,6 @@ class Graph(object):
             self.nodes[u].explored = True
             stack = [self.nodes[u]]
             r = []
-
             while stack:
                 aux = stack.pop(0)
                 r.append(aux)
@@ -36,7 +38,6 @@ class Graph(object):
                     if not x.explored:
                         x.explored = True
                         stack.append(x)
-
             return r
 
     def marked_nodes_as_not_explored(self):
@@ -62,7 +63,6 @@ class Graph(object):
     def trees_in_forest(self):
         for u in range(len(self.nodes)):
             self.prune_tree(u)
-
         return self.removed_edges
 
 
@@ -72,6 +72,5 @@ graph = Graph(n)
 for _ in range(m):
     a, b = [int(x) for x in input().split()]
     graph.add_edge(a-1, b-1)
-
 
 print(graph.trees_in_forest())

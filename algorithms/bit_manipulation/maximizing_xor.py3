@@ -1,3 +1,6 @@
+# Maximizing XOR
+# https://www.hackerrank.com/challenges/maximizing-xor/problem
+
 l = int(input())
 r = int(input())
 max_ = -1

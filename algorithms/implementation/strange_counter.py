@@ -1,3 +1,6 @@
+# Strange Counter
+# https://www.hackerrank.com/challenges/strange-code/problem
+
 n = int(input())
 max_score = 10e12
 

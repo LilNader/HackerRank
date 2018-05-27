@@ -1,3 +1,6 @@
+# Marc's Cakewalk
+# https://www.hackerrank.com/challenges/marcs-cakewalk/problem
+
 n = int(input())
 l = [int(x) for x in input().split()]
 l.sort(reverse=True)

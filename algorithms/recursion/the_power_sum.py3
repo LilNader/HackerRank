@@ -1,3 +1,6 @@
+# The Power Sum
+# https://www.hackerrank.com/challenges/the-power-sum/problem
+# 
 # This problem really took me a while to understand how to approach some 
 # problems using backtracking technique. :^)
 

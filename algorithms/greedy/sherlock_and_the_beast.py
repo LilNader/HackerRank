@@ -1,3 +1,6 @@
+# Sherlock and The Beast
+# https://www.hackerrank.com/challenges/sherlock-and-the-beast/problem
+
 def foo(n):
     s = ''.join(['5' for _ in range(n)])
     n_5, n_3 = n, 0

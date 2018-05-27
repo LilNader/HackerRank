@@ -1,3 +1,6 @@
+# Fibonacci Modified
+# https://www.hackerrank.com/challenges/fibonacci-modified/problem
+
 t1, t2, n = [int(x) for x in input().split()]
 dic = {1: t1, 2: t2}
 

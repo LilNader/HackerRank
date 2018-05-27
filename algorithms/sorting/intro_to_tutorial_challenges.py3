@@ -1,3 +1,6 @@
+# Intro to Tutorial Challenges
+# https://www.hackerrank.com/challenges/tutorial-intro/problem
+
 v = input()
 n = int(input())
 l = [x for x in input().split()]

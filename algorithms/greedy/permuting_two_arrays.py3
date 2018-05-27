@@ -1,3 +1,6 @@
+# Permuting Two Arrays
+# https://www.hackerrank.com/challenges/two-arrays/problem
+
 def is_possible(a, b, n, k):
     a.sort()
     b.sort(reverse=True)

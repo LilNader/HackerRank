@@ -1,5 +1,8 @@
+# K Factorization
+# https://www.hackerrank.com/challenges/k-factorization/problem
+#
 # Technique used: Backtracking.
-#This problem trigger me a headache because in principle I didn't pruned
+# This problem trigger me a headache because in principle I didn't pruned
 # the backtracking tree and started to calculate surplus cases and I
 # didn't know how to prune it correctly.
 

@@ -1,3 +1,6 @@
+# Pairs
+# https://www.hackerrank.com/challenges/pairs/problem
+# 
 # Techinique used: bynary search.
 # The idea was to sort the elements into an array (and removing duplicates),
 # then do binary search for each element looking for the element plus k.

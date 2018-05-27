@@ -1,3 +1,6 @@
+# Minimum Absolute Difference in an Array
+# https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem
+
 n= int(input())
 l = [int(x) for x in input().split()]
 l.sort()
